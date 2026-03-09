@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--nav-->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Conatct</a></li>
+        </ul>
+        <div class="menu">☰</div>
+    </nav>
+
+    <!-- home -->
+     <section id="home">
+        <div class="home-content">
+            <h1>Welcome I'm <span>Tanweer</span></h1>
+            <p>Full Stack Developer / Graphic Designer & Digital Marketer</p>
+            <button>Download CV</button>
+        </div>
+     </section>
+
+     <!-- about -->
+
+     <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Full Stack Developer who loves building beutiful and responsive website
+            using HTML, CSS, Javascript, Bootstrap, React, Node, Express & MongoDB
+        </p>
+     </section>
+
+     <!-- skill -->
+
+     <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Javascript</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">React</div>
+            <div class="skill">Node</div>
+            <div class="skill">Express</div>
+            <div class="skill">MongoDB</div>
+        </div>
+     </section>
+
+     <!-- services -->
+
+     <section id="services">
+        <h2>Services</h2>
+        <div class="service-container">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Modern and creative website design</p>
+            </div>
+            <div class="card">
+                <h3>Full Stack Development</h3>
+                <p>Responsive website using modern tools</p>
+            </div>
+            <div class="card">
+                <h3>UI/UX Design</h3>
+                <p>User Friendly and attractive interface</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- projects -->
+
+     <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>Personal responsive portfolio website</p>
+            </div>
+             <div class="project">
+                <h3>E-commerce Website</h3>
+                <p>Online Shopping website with cart</p>
+            </div>
+             <div class="project">
+                <h3>Todo App</h3>
+                <p>Task Manager using Javascript</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- contact -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+            <input type="text" placeholder="Your name">
+            <input type="email" placeholder="Your email">
+            <textarea name="" id="" placeholder="Your Message"></textarea>
+            <button>Send Message</button>
+        </form>
+      </section>
+
+      <!-- footer -->
+
+      <footer>
+        <p>Copyright &copy; Tanweer Portfolio</p>
+      </footer>
+
+      <script>
+        const menu = document.querySelector('.menu')
+        const nav = document.querySelector('.nav-links')
+
+        menu.onclick=() =>{
+            nav.classList.toggle('active')
+        }
+      </script>
+</body>
+</html>

@@ -48,6 +48,14 @@ nav{
     cursor: pointer;
 }
 
+.project a {
+    text-decoration: none;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /* home */
 
 #home{
@@ -151,6 +159,10 @@ h2{
     padding: 30px;
     border-radius: 10px;
     width: 250px;
+}
+
+.project p{
+    margin-bottom: 20px;
 }
 
 /* contact */
